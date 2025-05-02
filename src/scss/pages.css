@@ -1,0 +1,80 @@
+.page-margin {
+  margin-bottom: 32px;
+}
+
+.page-margin-2 {
+  margin-bottom: 16px;
+}
+
+.page-margin-8 {
+  margin-bottom: 8px;
+}
+
+.page-margin-24 {
+  margin-bottom: 8px;
+}
+
+.h3-uppercase {
+  text-transform: uppercase;
+}
+
+.page-text-bold {
+  font-weight: 600;
+}
+
+.page-text {
+  line-height: 1.57143;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.page-simple-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.page-simple-link {
+  line-height: 1.57143;
+  color: #0059ff;
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    line-height: 1.5;
+  }
+}
+
+.page-title-h3 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 1.55556;
+  @media screen and (min-width: 1440px) {
+    font-size: 20px;
+    line-height: 1.4;
+  }
+}
+
+.page-title {
+  font-family: 'Nunito', sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 800;
+  font-size: 24px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  margin-top: 116px;
+  @media screen and (min-width: 1440px) {
+    font-size: 28px;
+    line-height: 1.57143;
+    margin-top: 189px;
+  }
+}
+
+.page-content {
+  padding: 0 16px;
+  padding-bottom: 60px;
+  @media screen and (min-width: 1440px) {
+    padding: 0 212px;
+    padding-bottom: 120px;
+  }
+}

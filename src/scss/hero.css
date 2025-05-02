@@ -1,0 +1,31 @@
+.hero {
+  background-image: url(../img/hero/wave_vector-mobile.png),
+    url(../img/hero/hero_mobile_bg.jpg);
+  background-size: contain, cover;
+  background-position: bottom, center;
+  background-repeat: no-repeat, no-repeat;
+  min-height: 812px;
+  width: 100%;
+  margin-top: 56px;
+  @media screen and (min-width: 1440px) {
+    background-image: url(../img/hero/wave_vector.png),
+      url(../img/hero/hero_pc_bg.jpg);
+    margin-top: 64px;
+    height: 120vh;
+  }
+}
+
+.hero_container {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-direction: column;
+  height: 100%;
+  padding: 0 14px;
+  @media screen and (min-width: 1440px) {
+    flex-direction: row;
+    justify-content: center;
+    padding: 0 80px;
+  }
+}
+

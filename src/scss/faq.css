@@ -1,0 +1,22 @@
+.faq {
+  scroll-margin-top: 100px;
+  width: 100%;
+  @media screen and (min-width: 1440px) {
+
+  }
+}
+
+.faq_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  padding: 60px 16px;
+
+  @media screen and (min-width: 1440px) {
+    gap: 76px;
+    padding: 100px 108px;
+  }
+}
+
+
