@@ -1,33 +1,17 @@
-.page-margin {
+.mb32 {
   margin-bottom: 32px;
 }
 
-.page-margin-2 {
+.mb16 {
   margin-bottom: 16px;
 }
 
-.page-margin-8 {
-  margin-bottom: 8px;
-}
-
-.page-margin-24 {
-  margin-bottom: 8px;
-}
-
-.h3-uppercase {
-  text-transform: uppercase;
-}
-
-.page-text-bold {
-  font-weight: 600;
-}
-
 .page-text {
-  line-height: 1.57143;
-  @media screen and (min-width: 1440px) {
-    font-size: 16px;
-    line-height: 1.5;
-  }
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
 }
 
 .page-simple-list {
@@ -36,45 +20,52 @@
 }
 
 .page-simple-link {
-  line-height: 1.57143;
-  color: #0059ff;
-  @media screen and (min-width: 1440px) {
-    font-size: 16px;
-    line-height: 1.5;
-  }
+  font-family: 'Hind', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.4;
+  color: #fff;
+  text-decoration: underline;
 }
 
-.page-title-h3 {
+.pages-title-h3 {
+  font-family: 'Barlow', sans-serif;
   font-weight: 600;
-  font-size: 18px;
-  line-height: 1.55556;
-  @media screen and (min-width: 1440px) {
-    font-size: 20px;
-    line-height: 1.4;
-  }
+  font-size: 26px;
+  line-height: 1.08;
+  color: #fff;
+}
+
+.pages-title-h2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
 }
 
 .page-title {
-  font-family: 'Nunito', sans-serif;
-  text-transform: uppercase;
-  text-align: center;
-  font-weight: 800;
-  font-size: 24px;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 500;
+  font-size: 72px;
+  line-height: 1.08;
+  color: #fff;
   margin: 0 auto;
-  margin-bottom: 40px;
-  margin-top: 116px;
+  margin-bottom: 32px;
+  margin-top: 60px;
+  text-align: left;
+  max-width: 343px;
   @media screen and (min-width: 1440px) {
-    font-size: 28px;
-    line-height: 1.57143;
-    margin-top: 189px;
+    margin-top: 128px;
+    max-width: 100%;
+    text-align: center;
   }
 }
 
 .page-content {
   padding: 0 16px;
-  padding-bottom: 60px;
+  padding-bottom: 100px;
   @media screen and (min-width: 1440px) {
-    padding: 0 212px;
-    padding-bottom: 120px;
+    padding: 0 50px;
   }
 }
