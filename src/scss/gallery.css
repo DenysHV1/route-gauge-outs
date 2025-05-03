@@ -1,8 +1,6 @@
 .gallery {
   scroll-margin-top: 100px;
   width: 100%;
-  @media screen and (min-width: 1440px) {
-  }
 }
 
 .gallery_container {
