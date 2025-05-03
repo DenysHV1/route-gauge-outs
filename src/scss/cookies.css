@@ -5,83 +5,97 @@
   transform: translate(-50%);
   z-index: 999;
   width: 100%;
-  background: #e9faff;
+  background: #fff;
 }
 
 .cookies-container {
-  padding: 40px 16px;
+  padding: 24px 16px;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  gap: 20px;
+  gap: 32px;
   @media screen and (min-width: 1440px) {
-    padding: 40px 108px;
+    padding: 40px;
     flex-direction: row;
     justify-content: space-between;
   }
 }
 
-.cookies-text {
-  max-width: 100%;
-  font-size: 14px;
-  line-height: 1.57143;
-  text-align: center;
-  color: #5b2d90;
+.cookies-text-box {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 8px;
+}
+
+.cookies-text-box h2 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.08;
+  color: #002a34;
   @media screen and (min-width: 1440px) {
-    font-size: 16px;
-    line-height: 1.5;
-    max-width: 705px;
-    text-align: left;
+    font-size: 36px;
+    line-height: 1.22;
   }
 }
 
+.cookies-text-box p {
+  max-width: 100%;
+  font-weight: 400;
+  color: #002a34;
+  text-align: left;
+}
+
 .cookies-buttons {
-  width: 100%;
   display: flex;
   align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  gap: 24px;
+  justify-content: flex-end;
+  gap: 8px;
   @media screen and (min-width: 1440px) {
-    flex-direction: row;
-    justify-content: flex-end;
+    gap: 16px;
+    justify-content: center;
   }
 }
 
 .cookies-button {
-  width: 100%;
-  height: 56px;
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 600;
-  font-size: 16px;
-  line-height: 1.5;
-  color: #121212;
-  border-radius: 16px;
+  width: 167px;
+  height: 54px;
   display: flex;
   align-items: center;
   justify-content: center;
+  font-family: 'Hind', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.4;
   cursor: pointer;
+  border-radius: 4px;
   @media screen and (min-width: 1440px) {
-    width: 184px;
-    height: 56px;
+    width: 187px;
+    height: 54px;
   }
 }
 
 .cookies-accept-js {
-  background-color: #a9ffcc;
+  background: #181b1d;
+  color: #fff;
   transition: background-color 300ms ease;
 }
 
 .cookies-accept-js:hover {
-  background-color: #64c78d;
+  background-color: #8b8b8b;
 }
 
 .cookies-decline-js {
-  background-color: #ff735d;
+  background: #fff;
+  color: #181b1d;
+  border: 1px solid #181b1d;
+
   transition: background-color 300ms ease;
 }
 
 .cookies-decline-js:hover {
-  background-color: #ffb5a9;
+  background-color: #8b8b8b;
 }
