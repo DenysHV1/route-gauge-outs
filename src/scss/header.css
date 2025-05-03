@@ -74,6 +74,9 @@
   height: 100%;
   width: 100%;
   gap: 26px;
+  @media screen and (max-height: 525px) {
+    gap: 15px;
+  }
 }
 
 .header-nav-mobile-item > a {
