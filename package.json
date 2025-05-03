@@ -1,11 +1,11 @@
 {
-  "name": "candy-magic-outs",
+  "name": "route-gauge-outs",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/route-gauge-outs/",
     "preview": "vite preview",
     "predeploy": "npm run build",
     "deploy": "netlify deploy -p"

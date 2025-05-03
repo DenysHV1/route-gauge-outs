@@ -9,20 +9,36 @@
   display: flex;
   flex-direction: column;
   justify-content: center;
-  gap: 40px;
-  padding: 60px 16px;
+  padding: 0 16px;
+  padding-bottom: 60px;
   @media screen and (min-width: 1440px) {
-    gap: 76px;
-    padding: 100px 0;
+    padding: 0 40px;
+    padding-bottom: 120px;
+  }
+}
+
+.gallery-title-h3 {
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.22;
+  color: #fff;
+  margin-top: 16px;
+  margin-bottom: 32px;
+  text-align: left;
+  @media screen and (min-width: 1440px) {
+    max-width: 882px;
+    margin-bottom: 60px;
+    margin-top: 24px;
   }
 }
 
 .gallery-content {
-  max-width: 303px;
-  width: 303px;
+  max-width: 294px;
+  width: 294px;
   @media screen and (min-width: 1440px) {
-    max-width: 1224px;
-    width: 1224px;
+    max-width: 1308px;
+    width: 1308px;
   }
 }
 
@@ -35,7 +51,73 @@
 }
 
 .swiper-slide-gallery {
-  border-radius: 12px;
+  border-radius: 10px;
   overflow: hidden;
+  display: flex !important;
+  align-items: flex-end;
+  justify-content: flex-end;
+  min-height: 508px;
+  padding: 24px 16px;
+  @media screen and (min-width: 1440px) {
+    padding: 32px;
+  }
+}
+
+.swiper-slide-gallery-1 {
+  background-image: url(../img/gallery/gallery-1.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-slide-gallery-2 {
+  background-image: url(../img/gallery/gallery-2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-slide-gallery-3 {
+  background-image: url(../img/gallery/gallery-3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.swiper-slide-gallery-4 {
+  background-image: url(../img/gallery/gallery-4.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.gallery-item-content {
+  padding: 24px;
+  background-color: #fff;
+  border-radius: 10px;
   display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 16px;
+  min-height: 258px;
+  @media screen and (min-width: 1440px) {
+    min-height: 208px;
+  }
+}
+
+.gallery-item-content h4 {
+  font-family: 'Barlow', sans-serif;
+  min-height: 84px;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.08;
+  color: #181b1d;
+  @media screen and (min-width: 1440px) {
+    min-height: 56px;
+  }
+}
+
+.gallery-item-content p {
+  color: #70777e;
 }
