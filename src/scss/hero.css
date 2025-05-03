@@ -1,17 +1,15 @@
 .hero {
-  background-image: url(../img/hero/wave_vector-mobile.png),
-    url(../img/hero/hero_mobile_bg.jpg);
-  background-size: contain, cover;
-  background-position: bottom, center;
-  background-repeat: no-repeat, no-repeat;
-  min-height: 812px;
+  background-image: url(../img/hero/hero-mobile.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 426px;
   width: 100%;
   margin-top: 56px;
   @media screen and (min-width: 1440px) {
-    background-image: url(../img/hero/wave_vector.png),
-      url(../img/hero/hero_pc_bg.jpg);
+    background-image: url(../img/hero/hero-pc.jpg);
     margin-top: 64px;
-    height: 120vh;
+    height: 100vh;
   }
 }
 
@@ -21,11 +19,50 @@
   justify-content: flex-start;
   flex-direction: column;
   height: 100%;
-  padding: 0 14px;
   @media screen and (min-width: 1440px) {
     flex-direction: row;
+    align-items: flex-start;
     justify-content: center;
-    padding: 0 80px;
+    padding: 0 288px;
   }
 }
 
+.hero-content {
+  background-color: #181b1d;
+  border-radius: 0 0 1000px 1000px;
+  padding: 70px 12.5px;
+  padding-bottom: 101px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  @media screen and (min-width: 1440px) {
+    padding-bottom: 139px;
+    width: 864px;
+  }
+}
+
+.hero-content h1 {
+  margin: 16px 0;
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 26px;
+  line-height: 1.08;
+  text-align: center;
+  color: #fff;
+  text-shadow: 0 4px 20px 0 rgba(0, 0, 0, 0.4);
+  @media screen and (min-width: 1440px) {
+    font-size: 48px;
+    margin: 27px 0;
+  }
+}
+
+.hero-content p {
+  font-size: 14px;
+  text-align: center;
+  text-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.4);
+  @media screen and (min-width: 1440px) {
+    font-size: 16px;
+    max-width: 516px;
+  }
+}
